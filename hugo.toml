@@ -1,0 +1,16 @@
+baseURL = 'https://lmsn-kang.github.io/' # 这里的斜杠不能少
+languageCode = 'zh-cn'
+title = '我的技术博客'
+theme = 'PaperMod'
+
+[params]
+  # 启用暗色模式
+  defaultTheme = "auto"
+  # 首页显示的社交链接
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/lmsn-kang"
+
+# 必须配置：为了让 PaperMod 正常工作
+[markup.goldmark.renderer]
+  unsafe = true
