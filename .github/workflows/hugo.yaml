@@ -30,7 +30,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.121.2 # 这里建议写一个具体的版本号，或者用 latest
+      HUGO_VERSION: 0.146.0 # 这里建议写一个具体的版本号，或者用 latest
     steps:
       - name: Install Hugo CLI
         run: |
